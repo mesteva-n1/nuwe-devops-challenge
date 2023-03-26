@@ -1,4 +1,4 @@
-resource "kubernetes_deployment_v1" "mdona_cloud_sqlproxy_deploy" {
+resource "kubernetes_deployment_v1" "deploy_devops_challenge" {
     metadata {
         name = local.deploy_name
         namespace = local.namespace
